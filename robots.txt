@@ -1,5 +1,12 @@
 User-agent: *
-Disallow: 
+Disallow: /wp-includes/js/wp-emoji-release.min.js?ver=6.7.1
+Disallow: /responsible-gaming
+Disallow: /withdrawal.html
+Disallow: /terms-and-conditions
+Disallow: /assets_files/saved_resource.html
+Disallow: /about-us
+Disallow: /mail.php
+Disallow: /search?q={search_term_string}
 
 User-agent:Google-Extended
 Disallow:/
@@ -21,6 +28,9 @@ Disallow:/
 
 User-agent:ClaudeBot
 Disallow:/
+
+Sitemap: https://fox777.co.in/sitemap.xml
+Sitemap: https://fox777.co.in/images_sitemap.xml
 
 User-agent:Cohere-ai
 Disallow:/
